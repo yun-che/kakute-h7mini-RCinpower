@@ -1,3 +1,25 @@
-# kakute-h7mini-RCinpower
-a tutorial about the construction of UAV  
-## Step01 配件组装
+# 使用kakute-h7mini&RCinpower搭建无人机
+一个简易的教程，欢迎fork后补充~
+## 硬件选型
+| 配件 | 型号 | 备注 |
+|:----:|:----:|------|
+| 飞控 |   kakute-h7   |      |
+| 电调 |      |      |
+| 电机*4 |  RCinpower    |      |
+| 碳板 |      |      |
+|  机架  |      |      |
+|  螺丝  |      |      |
+## 配件组装
+- 固定机臂、白色打印件至碳板
+- 焊接
+1. 电调-电机：电调左上、左下、右上、右下各有3个焊点，分别对应四个电机3*4条线，电机三条线不必按某个顺序，因为每两条线调换后代表电机转向反向，后面在飞控配置可以调节（tips：__先将电调安在机臂上绕好线再焊，否则焊好后无法再将电机放在机臂上__）
+2. 电调-电源供电线
+3. 飞控-接收机
+- 安装飞塔（电调在下，飞控在上）
+## 飞控设置
+### 使用ubuntu烧录固件
+- 补充
+### 使用QGroundControl设置
+参考文档：https://docs.qgroundcontrol.com/master/zh/qgc-user-guide/
+- 导入配置文件
+- 
